@@ -1,6 +1,6 @@
 html {
-  background-color: #b4c6d8;
-  font-family: sans-serif;
+  background-color: #fffbee;
+  font-family: 'GortonPerfected','sans-serif';
 }
 
 body {
@@ -10,14 +10,23 @@ body {
   padding: 1rem;
   line-height: 1.5;
 }
+/* Sets spacing for headers globally*/
+h1, h2, h3, h4 {
+line-height: 0.5;
+}
 
 * {
   box-sizing: border-box;
 }
 
 h1 {
-  margin: 1rem 0;
+  margin: 0.5rem 0;
   font-size: 2.5rem;
+}
+
+h2 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
 }
 
 /* Register your custom font family and tell the browser where to find it. */
