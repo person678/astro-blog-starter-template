@@ -1,3 +1,3 @@
-I'm an Electronics Design Engineer based in York, England. My interests are varied: you'll find me writing about woodworking, public transport or maybe the Luddites: any topic you'd hear an old man in a country pub quietly muttering to himself about, three pints deep. (*Note: I am 30.*)
+I'm an Electronics Design Engineer based in York, England. My interests are varied: you'll find me writing about woodworking, public transport or anything slightly dull. The Luddites or something. Any topic you'd hear an old man in a country pub quietly muttering to himself about, three pints deep. (*Note: I am 30.*)
 
 You're either here to see my portfolio, read my [blog](/blog/) or enlist my aid. Or in the wrong place! In which case, I can only apologise. 
