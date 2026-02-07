@@ -19,3 +19,12 @@ h1 {
   margin: 1rem 0;
   font-size: 2.5rem;
 }
+
+/* Register your custom font family and tell the browser where to find it. */
+@font-face {
+  font-family: 'GortonPerfected';
+  src: url('/fonts/GortonPerfectedVF.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
