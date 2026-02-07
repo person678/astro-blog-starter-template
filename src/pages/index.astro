@@ -13,9 +13,11 @@ import Navigation from '../components/Navigation.astro';
   </body>
 </html>
 <style> /* where reduces (specifictiy) of page style, so it doesn't overwrite header one.*/
-  :where(h1) {
+  h1 {
     color: orange;
   }
 </style>
+Astro actually scopes styles by default, so component styles don't leak out. But you're asking about the reverse - preventing page styles from overwriting component styles.
+
 
 <a href="/about/">About</a>
