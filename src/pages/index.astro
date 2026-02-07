@@ -12,8 +12,8 @@ import Navigation from '../components/Navigation.astro';
     </ul>
   </body>
 </html>
-<style>
-  h1 {
+<style> /* where reduces (specifictiy) of page style, so it doesn't overwrite header one.*/
+  :where(h1) {
     color: orange;
   }
 </style>
