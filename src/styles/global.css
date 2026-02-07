@@ -7,8 +7,7 @@ body {
   margin: 0 auto;
   width: 100%;
   max-width: 80ch;
-  padding: 1rem;
-  line-height: 1.5;
+  line-height: 1;
 }
 /* Sets spacing for headers globally*/
 h1, h2, h3, h4 {
@@ -20,12 +19,12 @@ line-height: 0.5;
 }
 
 h1 {
-  margin: 0.5rem 0;
+  margin: 2rem 0;
   font-size: 2.5rem;
 }
 
 h2 {
-  margin: 0.5rem 0;
+  margin: 1rem 0;
   font-size: 1rem;
 }
 

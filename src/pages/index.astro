@@ -1,26 +1,7 @@
 ---
-import Navigation from '../components/Navigation.astro';
-import '../styles/global.css';
+import BaseLayout from '../layouts/BaseLayout.astro';
+const pageTitle = "Home Page";
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>My Site</title>
-  </head>
-  <body>
-    <Navigation />
-    
-    <main>
-      <h1>Hello, World!</h1>
-      <ul>
-        <li><a href="/posts/astro-learning/">Learning Astro</a></li>
-      </ul>
-    </main>
-  </body>
-</html>
-
-<style>
-  h1 {
-    color: orange;
-  }
-</style>
+<BaseLayout pageTitle={pageTitle}>
+  <h2>My awesome blog subtitle</h2>
+</BaseLayout>

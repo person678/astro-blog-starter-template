@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MDLayout.astro
 title: 'My First Blog Post'
 pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
@@ -9,7 +10,6 @@ image:
 tags: ["astro", "blogging", "learning in public"]
 ---
 
-# A blog about Astro
 ## How I learnt to stop worrying
 The quick brown fox jumps over the lazy dog. 
 
