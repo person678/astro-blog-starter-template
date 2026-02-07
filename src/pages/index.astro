@@ -1,23 +1,25 @@
 ---
 import Navigation from '../components/Navigation.astro';
 ---
-<!-- Below is your "component template." It's just HTML, but with
-    some magic sprinkled in to help you build great templates. -->
-<html>
-<Navigation />
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>My Site</title>
+  </head>
   <body>
-    <h1>Hello, World!</h1>
-    <ul>
-      <li><a href="/posts/astro-learning/">Learning Astro</a></li>
-    </ul>
+    <Navigation />
+    
+    <main>
+      <h1>Hello, World!</h1>
+      <ul>
+        <li><a href="/posts/astro-learning/">Learning Astro</a></li>
+      </ul>
+    </main>
   </body>
 </html>
-<style> /* where reduces (specifictiy) of page style, so it doesn't overwrite header one.*/
-  h1 {
+
+<style>
+  :where(h1) {
     color: orange;
   }
 </style>
-Astro actually scopes styles by default, so component styles don't leak out. But you're asking about the reverse - preventing page styles from overwriting component styles.
-
-
-<a href="/about/">About</a>
