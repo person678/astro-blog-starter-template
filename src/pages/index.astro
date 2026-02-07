@@ -1,7 +1,10 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { Content as Intro } from './content/homepage.md';
+
 const pageTitle = "Home Page";
 ---
-<BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
+<BaseLayout pageTitle="How's it going?">
+  <Intro/>
+
 </BaseLayout>

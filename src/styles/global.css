@@ -36,3 +36,20 @@ h2 {
   font-style: normal;
   font-display: swap;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: light;
+    --bg: #fffbee;
+    --accent-bg: #fff2b8;
+    --text: #080707;
+    --text-light: #585858;
+    --accent: #c97500;
+    --accent-hover: #1266e2;
+    --accent-text: var(--bg);
+    --code: #d81b60;
+    --preformatted: #444;
+    --marked: #ffdd33;
+    --disabled: #efefef;
+  }
+}
