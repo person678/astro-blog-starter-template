@@ -45,11 +45,11 @@ h2 {
     --text: #080707;
     --text-light: #585858;
     --accent: #c97500;
-    --accent-hover: #1266e2;
+    --accent-hover: #e2c8a6;
     --accent-text: var(--bg);
     --code: #d81b60;
     --preformatted: #444;
     --marked: #ffdd33;
-    --disabled: #efefef;
+    --disabled: #be1313;
   }
 }
